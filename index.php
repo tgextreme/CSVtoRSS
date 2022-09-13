@@ -13,7 +13,7 @@ $rss='<?xml version="1.0" encoding="UTF-8"?>
 <copyright></copyright>
 ';
 $item="";
-file_get_contents("csv.csv", "http://feeds.avangate.com/139125/38292_NEQHNE.csv");
+
 $fp = fopen ("csv.csv","r");
 $i=0;
 while ($data = fgetcsv ($fp, 1000, ",")) {

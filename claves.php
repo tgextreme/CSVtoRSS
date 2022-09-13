@@ -1,0 +1,5 @@
+<?php
+$CLAVE="holamundo";
+
+
+?>
